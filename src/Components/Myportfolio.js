@@ -15,7 +15,7 @@ const Myportfolio = () => {
               
               <div  className='Projects-Details' style={{backgroundImage:`url(${y.image})`,backgroundSize:"cover"}} >
                 <div className='Projects-Style' >{y.Name}</div>
-              <a href={y.project1} ><button className='projects-btn'>View</button></a>
+              <a href={y.project1} ><button className='projects-btn'>Project-Details</button></a>
               </div>
               
               )
@@ -26,7 +26,7 @@ const Myportfolio = () => {
               
               <div className='Projects-Details' style={{backgroundImage:`url(${y.image})`,backgroundSize:"cover"}}>
                 <div className='Projects-Style' >{y.Name}</div>
-                <a href={y.project2} ><button className='projects-btn'>View</button></a>
+                <a href={y.project2} ><button className='projects-btn'>Project-Details</button></a>
                 </div>
               
               )
@@ -36,7 +36,7 @@ const Myportfolio = () => {
               
               <div className='Projects-Details' style={{backgroundImage:`url(${y.image})`,backgroundSize:"cover"}}>
                 <div className='Projects-Style' >{y.Name}</div>
-              <a href={y.project3} ><button className='projects-btn' >View</button></a>
+              <a href={y.project3} ><button className='projects-btn' >Project-Details</button></a>
               </div>
               
               ) 
@@ -46,7 +46,7 @@ const Myportfolio = () => {
               
               <div className='Projects-Details'  style={{backgroundImage:`url(${y.image})`,backgroundSize:"cover"}}>
                 <div className='Projects-Style'>{y.Name}</div>
-                <a href={y.project4} ><button className='projects-btn'>View</button></a>
+                <a href={y.project4} ><button className='projects-btn'>Project-Details</button></a>
                 </div>
               
               )
@@ -56,7 +56,7 @@ const Myportfolio = () => {
               
               <div className='Projects-Details'  style={{backgroundImage:`url(${y.image})`,backgroundSize:"cover"}}>
                 <div className='Projects-Style'>{y.Name}</div>
-                <a href={y.project5} ><button className='projects-btn'>View</button></a>
+                <a href={y.project5} ><button className='projects-btn'>Project-Details</button></a>
                 </div>
               
               )

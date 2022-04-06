@@ -10,11 +10,27 @@ const Navbar = () => {
                 <h1>Raavi Naga Veera Manikanta</h1>
             </div>
             <ul className='Full-Details'>
-             <Link to="/Home"><li>Home</li></Link>
-             <Link to="/About"><li>About</li></Link>
-             <Link to="/Myportfolio"><li>Portfolio</li></Link>
-             <Link to="/Resume"><li>Resume</li></Link>
-             <Link to="/Contact"><li>Contact</li></Link>
+              
+              <Link className='text-class'  to="/Home">Home</Link>
+            
+             
+              <Link className='text-class' to="/About">About</Link>
+            
+              
+              <Link  className='text-class'  to="/Myportfolio">Portfolio</Link>
+            
+              
+                <Link className='text-class'   to="/Resume">Resume</Link>
+      
+                
+                <Link className='text-class'  to="/Contact">Contact</Link>
+      
+                
+             
+          
+            
+             
+             
             </ul>
         </nav>
     </div>
